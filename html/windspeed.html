@@ -44,17 +44,53 @@
     </nav>
 
     <!--Build Container with title visualizations and analysis-->
-    <div class = "container bg-dark mt-2">
+  <div class = "row">
+    <div class = "container bg-dark mt-2 col-lg-6">
         <div class = "row">
             <h3 class = "text-light font-weight-bold ml-2">Latitude vs Wind Speed</h3>
         </div>
         <div class = "row mt-2">
-            <img src = "../Resources/windspeed.JPG" class = "img-thumbnail img-responsive center-block d-block mx-auto">
+            <img src = "../assets/windspeed.JPG" class = "img-thumbnail img-responsive center-block d-block mx-auto">
         </div>
         <div class = "row">
             <h5 class = "text-light ml-2 mt-2 mb-5">This graph is plotting wind speed in mph at various cities' latitude. There does not appear to be any pattern or trend between latitude and wind speed.</h5>
         </div>
     </div>
+    
+      <!--this is the start of visualizations side bar-->
+
+      <div class="container bg-dark mt-2 pb-2 ml-8 col-lg-4">
+        <h3 class = "font-weight-bold text-light text-center">Visualizations</h3>
+        <div class = "row">
+            <div class = "thumbnail col-lg-6">
+                <a href = "maxtemp.html">
+                    <img src = "../assets/maxtemp.JPG" class = "img-thumbnail mt-2">
+                </a>
+            </div>
+            <div class = "thumbnail col-lg-6">
+            <a href = "humidity.html">
+                <img src = "../assets/humidity.JPG" class = "img-thumbnail mt-2">
+            </a>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "thumbnail col-lg-6">
+                <a href = "cloudiness.html">
+                    <img src = "../assets/cloudiness.JPG" class = "img-thumbnail mt-2">
+                </a>
+            </div>
+            <div class = "thumbnail col-lg-6">
+            <a href = "windspeed.html">
+                <img src = "../assets/windspeed.JPG" class = "img-thumbnail mt-2">
+            </a>
+            </div>
+          </div>
+  </div>  
+  </div>
+
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
